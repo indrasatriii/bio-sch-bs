@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tampilkan PDF</title>
+  <style>
+    /* Supaya PDF tampil fullscreen */
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    embed, iframe, object {
+      width: 100%;
+      height: 100vh; /* fullscreen tinggi layar */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cara 1: dengan embed -->
+  <embed src="/Users/ndandol/Downloads/html5up-strata/svr/svr70.pdf" type="application/pdf">
+
+  <!-- Cara 2: dengan iframe -->
+  <!-- <iframe src="dokumen.pdf"></iframe> -->
+
+  <!-- Cara 3: dengan object -->
+  <!-- <object data="dokumen.pdf" type="application/pdf" width="100%" height="100%"></object> -->
+</body>
+</html>
