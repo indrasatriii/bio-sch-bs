@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: url('goose.jpg') no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+      backdrop-filter: blur(10px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .card a {
+      display: inline-block;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px 20px;
+      color: #fff;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(5px);
+    }
+
+    .card a:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h3>Forecasting of elderly population in Taiwan using Deep Learning (conference)</h3>
+      <a href="https://nkustedutw-my.sharepoint.com/:b:/g/personal/c110152154_nkust_edu_tw/EbGjQbP0gT1AiD1jGwZ2BNgBpXi4P5R38X8UHGj7EDM0Yw?e=tYOh18" target="_blank">Click</a>
+    </div>
+    <div class="card">
+      <h3>Support Vector Regression Optimized by Flying Geese Optimization Algorithm for Number of patients with Dementia forecasting</h3>
+      <a href="https://nkustedutw-my.sharepoint.com/:b:/g/personal/c110152154_nkust_edu_tw/ET091kp0O2lOvtpr-LP9wIABb0DkCzkK5SwSldgwzSrT8A?e=5NN02I" target="_blank">Click</a>
+    </div>
+    <div class="card">
+      <h3>A multi-objective Flying Geese Optimization algorithm</h3>
+      <a href="https://nkustedutw-my.sharepoint.com/:b:/g/personal/c110152154_nkust_edu_tw/ESogc2fvMc9Il5QMGDsbI4MBvywJqRRk0uFEYBBlxTKk0Q?e=ERsmpm" target="_blank">Click</a>
+    </div>
+    <div class="card">
+      <h3>Travelling salesman problem with FGOA</h3>
+      <a href="https://drive.google.com/drive/folders/1SuzEYVAw2pPffYiPiVYY7HILkiOt8Nb1?usp=sharing" target="_blank">Click</a>
+    </div>
+  </div>
+</body>
+</html>
